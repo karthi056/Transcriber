@@ -1,0 +1,36 @@
+name: speech_transcriber
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0' # Ensuring compatibility with both projects
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  speech_to_text: ^7.0.0 
+  file_picker: ^5.3.1 
+  path_provider: ^2.0.11
+  http: ^0.13.6
+  docx_template: ^0.4.0 
+  permission_handler: ^11.3.1 
+  audioplayers: ^5.2.1
+  record: ^5.2.0
+  shared_preferences: ^2.2.0
+  sqflite: ^2.3.0
+  flutter_spinkit: ^5.1.0
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # Used from the template for best practices
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/ # Keeping the assets directory from the template
